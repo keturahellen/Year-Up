@@ -1,4 +1,5 @@
 
+
 public class Person {
 	 
 	
@@ -57,10 +58,9 @@ public class Person {
 			m_address = Address;
 		}
 		
-		public int GrowsOlder()
+		public void GrowsOlder()
 		{
-			int olderAge = 1 + m_age;
-			return olderAge;
+			m_age = 1 + m_age;
 		}
 
 	}
